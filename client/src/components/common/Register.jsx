@@ -4,11 +4,11 @@ const Register = () => {
   const { register, handleSubmit, errors, onSubmit } = useRegisterForm();
  
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-100 to-purple-100 flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-r from-purple-100 to-pink-100 flex items-center justify-center">
       <div className="card w-full max-w-md bg-base-100 shadow-xl">
         <div className="card-body">
           <h2 className="card-title text-2xl font-bold text-center">
-            Register for EventSphere
+            Register for EventVenue
           </h2>
           <form
             onSubmit={handleSubmit(onSubmit)}

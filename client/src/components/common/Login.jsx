@@ -6,11 +6,11 @@ const Login = () => {
  
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-100 to-purple-100 flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-r from-Purple-100 to-pink-100 flex items-center justify-center">
       <div className="card w-full max-w-md bg-base-100 shadow-xl">
         <div className="card-body">
           <h2 className="card-title text-2xl font-bold text-center">
-            Log in to EventSphere
+            Log in to EventVenue
           </h2>
           <form onSubmit={handleSubmit(onSubmit)} className="form-control w-full">
             <div className="form-control">

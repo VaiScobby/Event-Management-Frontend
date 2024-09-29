@@ -10,7 +10,7 @@ const Header = () => {
     navigate("/");
   };
   return (
-    <header className="bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg md:px-5">
+    <header className="bg-gradient-to-r from-purple-600 to-pink-600 shadow-lg md:px-5">
       <div className="navbar text-white">
         <div className="navbar-start">
           <div className="dropdown">
@@ -84,7 +84,7 @@ const Header = () => {
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost normal-case text-xl">
-            EventSphere
+            EventVenue
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
