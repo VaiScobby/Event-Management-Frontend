@@ -29,7 +29,7 @@ EventVenue is a comprehensive event management platform built with modern web te
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/RijoKsd/Event-Mangement.git
+   git clone
    cd Event-Mangement
    ```
 
